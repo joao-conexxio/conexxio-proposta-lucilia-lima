@@ -1,0 +1,61 @@
+<section class="blk-fora" id="fora-da-sala">
+  <div class="wrap">
+    <div class="blk-fora__cab" data-reveal>
+      <p class="blk-fora__eyebrow">Fora da sala</p>
+      <h2 class="blk-fora__titulo">Doze anos de Asa Norte, e a agenda não para na maca</h2>
+    </div>
+    <div class="blk-fora__grade">
+      <article class="blk-fora__card blk-fora__card--ano" data-reveal style="--d:0ms">
+        <span class="blk-fora__num">2014</span>
+        <strong>Doze anos em agosto</strong>
+        <p>A Lucília Lima abriu as portas em 2014 e completou doze anos em agosto de 2026, com parte da equipe que está ali desde o começo e gente que chegou depois e ficou.</p>
+      </article>
+      <article class="blk-fora__card" data-reveal style="--d:120ms">
+        <span class="blk-fora__ico"><!--icone:microscopio--></span>
+        <strong>Estetika, todo ano</strong>
+        <p>A equipe vai todos os anos ao Estetika, o congresso científico de estética, e volta com o que vale trazer. Os quatro protocolos lançados em outubro de 2026 saíram de meses de estudo e capacitação.</p>
+      </article>
+      <article class="blk-fora__card" data-reveal style="--d:240ms">
+        <span class="blk-fora__ico"><!--icone:coracao--></span>
+        <strong>Outubro Rosa com a Rede Feminina</strong>
+        <p>De novo em 2026, a casa recolhe itens para o café da tarde das mulheres em tratamento na Rede Feminina de Combate ao Câncer de Brasília, e reverte parte de cada atendimento solidário à instituição.</p>
+      </article>
+    </div>
+    <div class="blk-fora__fio" aria-hidden="true"><!--motivo:rule--></div>
+  </div>
+</section>
+
+<style>
+.blk-fora{padding-block:var(--sp-section)}
+.blk-fora__cab{max-width:42rem;margin-bottom:var(--sp-5)}
+.blk-fora__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-fora__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);font-weight:500;
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-fora__grade{display:grid;gap:var(--sp-3)}
+.blk-fora__card{
+  display:flex;flex-direction:column;gap:var(--sp-2);padding:var(--sp-4);
+  background:color-mix(in srgb,var(--brand) 5%,var(--bg));
+  border:1px solid color-mix(in srgb,var(--brand) 16%,transparent);
+  border-radius:var(--radius);
+}
+.blk-fora__card--ano{background:var(--brand);border-color:var(--brand);color:var(--bg)}
+.blk-fora__num{
+  font-family:var(--f-display);font-size:clamp(3.4rem,9vw,5rem);line-height:.9;font-weight:500;
+}
+.blk-fora__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-fora__ico svg{width:100%;height:100%}
+.blk-fora__card strong{font-family:var(--f-display);font-size:1.5rem;font-weight:500;line-height:1.15}
+.blk-fora__card:not(.blk-fora__card--ano) strong{color:var(--ink)}
+.blk-fora__card p{margin:0;font-size:.98rem;line-height:1.6}
+.blk-fora__card:not(.blk-fora__card--ano) p{color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-fora__card--ano p{color:color-mix(in srgb,var(--bg) 88%,transparent)}
+.blk-fora__fio{margin-top:var(--sp-5);color:var(--brand)}
+@media (min-width:56rem){
+  .blk-fora__grade{grid-template-columns:repeat(3,1fr)}
+}
+</style>

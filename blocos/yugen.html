@@ -1,0 +1,65 @@
+<section class="blk-yugen" id="yugen">
+  <div class="wrap blk-yugen__grade">
+    <figure class="blk-yugen__foto" data-reveal>
+      <!--foto:midia/yugen-algas.jpg|Mãos da esteticista aplicando máscara de algas no rosto de uma cliente durante o Yugen Face Spa-->
+      <figcaption>Máscara de algas, uma das etapas do ritual</figcaption>
+    </figure>
+    <div class="blk-yugen__texto">
+      <p class="blk-yugen__eyebrow">Novo na casa · outubro de 2026</p>
+      <h2 class="blk-yugen__titulo" data-reveal>Yugen Face Spa</h2>
+      <p class="blk-yugen__lead" data-acende>Um ritual facial inspirado nos cuidados de beleza orientais. Foram meses de estudo até ele chegar à CLN 306, e cada etapa entra ou sai conforme a pele de quem está na maca.</p>
+      <ol class="blk-yugen__etapas">
+        <li data-reveal style="--d:0ms"><span class="blk-yugen__ico"><!--icone:folha--></span><strong>Algas</strong><span>a máscara que cobre o rosto</span></li>
+        <li data-reveal style="--d:110ms"><span class="blk-yugen__ico"><!--icone:gota--></span><strong>Argilas</strong><span>escolhidas para cada tipo de pele</span></li>
+        <li data-reveal style="--d:220ms"><span class="blk-yugen__ico"><!--icone:spa--></span><strong>Flores</strong><span>aroma e textura na preparação</span></li>
+        <li data-reveal style="--d:330ms"><span class="blk-yugen__ico"><!--icone:mao--></span><strong>Massagem</strong><span>técnicas manuais do começo ao fim</span></li>
+      </ol>
+      <p class="blk-yugen__nota">O resultado aparece na pele. O resto você sente quando levanta da maca.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-yugen{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 5%,var(--bg))}
+.blk-yugen__grade{display:grid;gap:var(--sp-5);align-items:center}
+.blk-yugen__foto{margin:0;position:relative}
+.blk-yugen__foto img{
+  display:block;width:100%;max-width:26rem;aspect-ratio:9/11;object-fit:cover;
+  border-radius:var(--radius);
+}
+.blk-yugen__foto figcaption{
+  margin-top:var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);
+  text-transform:uppercase;color:color-mix(in srgb,var(--ink) 60%,transparent);
+}
+.blk-yugen__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-yugen__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);font-weight:500;
+  line-height:var(--lh-display);color:var(--ink);
+}
+.blk-yugen__lead{margin:var(--sp-3) 0 0;font-size:1.15rem;line-height:1.6;color:var(--ink);max-width:36rem}
+.blk-yugen__etapas{
+  list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;gap:var(--sp-2);
+  grid-template-columns:repeat(2,1fr);
+}
+.blk-yugen__etapas li{
+  display:flex;flex-direction:column;gap:.2rem;padding:var(--sp-3);
+  background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 18%,transparent);
+  border-radius:var(--radius);
+}
+.blk-yugen__ico{display:inline-flex;width:2rem;height:2rem;color:var(--brand);margin-bottom:var(--sp-1)}
+.blk-yugen__ico svg{width:100%;height:100%}
+.blk-yugen__etapas strong{font-family:var(--f-display);font-size:1.4rem;font-weight:500;color:var(--ink);line-height:1.1}
+.blk-yugen__etapas span:last-child{font-size:.9rem;line-height:1.45;color:color-mix(in srgb,var(--ink) 70%,transparent)}
+.blk-yugen__nota{
+  margin:var(--sp-4) 0 0;font-family:var(--f-display);font-style:italic;font-size:1.3rem;
+  color:var(--brand);max-width:32rem;
+}
+@media (min-width:64rem){
+  .blk-yugen__grade{grid-template-columns:5fr 7fr;gap:var(--sp-6,5rem)}
+  .blk-yugen__foto img{max-width:none}
+  .blk-yugen__etapas{grid-template-columns:repeat(4,1fr)}
+}
+</style>

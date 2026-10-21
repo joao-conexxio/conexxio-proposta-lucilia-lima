@@ -1,0 +1,262 @@
+{
+  "slug": "lucilia-lima",
+  "negocio": {
+    "nome": "Lucília Lima · Centro de Estética",
+    "logo": "brand/logo.png",
+    "whatsapp": "5561982824210",
+    "unidades": [
+      {
+        "bairro": "Asa Norte · Brasília/DF",
+        "endereco": "CLN 306, Bloco D, salas 101, 107 e 109 – Asa Norte, Brasília – DF, 70745-540",
+        "telefone": "(61) 3032-2806",
+        "horario": "Segunda a sexta, das 9h às 19h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#551D82",
+    "brand2": "#3B1260",
+    "ink": "#26182F",
+    "bg": "#FBF8FC",
+    "pulse": "#B48DC8",
+    "radius": "10px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Yugen",
+            "href": "#yugen"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Centro de estética",
+        "h1": "Doze anos de cuidado na Asa Norte",
+        "lead": "Limpeza de pele, laser Lavieen, massagens e o programa Diástase Dream. Na CLN 306, Bloco D.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "4,9 no Google · 225 avaliações · 12 anos ·",
+        "cardTitulo": "Fale com a nossa recepção",
+        "imagem": "midia/sala.jpg",
+        "imagemAlt": "Sala de atendimento da Lucília Lima: maca branca, painel de madeira ripada, espelho e plantas na bancada",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Limpeza de pele",
+          "Yugen Face Spa",
+          "Laser Lavieen",
+          "Diástase Dream",
+          "Massagem relaxante",
+          "Pedras quentes",
+          "Ventosas",
+          "Estética corporal",
+          "Depilação",
+          "CLN 306 · Asa Norte"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Quem passa por aqui volta e avalia",
+        "itens": [
+          {
+            "valor": "12",
+            "rotulo": "anos de casa, desde 2014",
+            "contar": 12
+          },
+          {
+            "valor": "4,9",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "225",
+            "rotulo": "avaliações de clientes",
+            "contar": 225
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "O jeito da casa",
+        "citacao": "O resultado na pele não diz tudo sobre o que aconteceu durante o atendimento.",
+        "autor": "Equipe Lucília Lima",
+        "texto": [
+          "Nos últimos anos, as clientes começaram a pedir outra coisa: menos exagero, mais pele de verdade, e um tempo na maca que seja delas. A casa foi atrás disso, com protocolos que juntam técnica e pausa.",
+          "É uma equipe de mulheres que se conhece há anos, que fecha a agenda numa sexta à tarde para comemorar junto e que volta do congresso com a lista do que vale trazer para a 306 Norte."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Do rosto ao corpo. Se você não sabe por onde começar, conte no WhatsApp o que quer mudar: a equipe indica o caminho.",
+        "itens": [
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Higienização, extração cuidadosa e hidratação, com o passo a passo ajustado ao seu tipo de pele. É por onde muita cliente começa.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Yugen Face Spa",
+            "descricao": "O ritual facial mais novo da casa: algas, argilas, flores e massagem, em etapas escolhidas para cada atendimento.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Laser Lavieen",
+            "descricao": "Laser para qualidade de pele: textura, viço e uniformidade do tom. A sessão é por região, e dá para tratar mais de uma área no mesmo dia.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Diástase Dream",
+            "descricao": "Programa para a musculatura abdominal com exercícios específicos, eletroestimulação e acompanhamento da equipe. Para depois da gestação, de um emagrecimento ou de outras mudanças no corpo.",
+            "duracao": "5 semanas",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Massagem relaxante",
+            "descricao": "Com aromaterapia, ventosas ou pedras quentes. Tem noiva que marca na véspera do casamento para chegar ao grande dia sem a tensão nos ombros.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Estética corporal",
+            "descricao": "Protocolos para firmeza, definição e redução de medidas, montados depois de olhar o que o seu corpo pede.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Depilação",
+            "descricao": "Rosto e corpo, com hora marcada. Pergunte no WhatsApp pelas áreas e pelos valores atualizados.",
+            "icone": "pele"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/yugen.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Do primeiro recado ao retorno, sem formulário.",
+        "itens": [
+          {
+            "titulo": "Você conta o que quer",
+            "texto": "Mande no WhatsApp o que gostaria de cuidar. A recepção responde com as opções e os próximos horários livres.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "A primeira visita",
+            "texto": "Antes de indicar um protocolo, a profissional olha a pele ou o corpo e conversa com você sobre rotina e expectativa.",
+            "icone": "check"
+          },
+          {
+            "titulo": "As sessões",
+            "texto": "Os atendimentos entram na agenda no ritmo do protocolo, no Bloco D da 306 Norte.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Entre uma sessão e outra",
+            "texto": "Em programas como o Diástase Dream, o cuidado continua em casa, com orientação e acompanhamento da equipe.",
+            "icone": "folha"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/fora-da-sala.html"
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Como eu agendo?",
+            "r": "Pelo WhatsApp (61) 98282-4210 ou pelo telefone (61) 3032-2806. Diga o tratamento e o dia que prefere."
+          },
+          {
+            "p": "O Diástase Dream é só para quem teve filho?",
+            "r": "Não. É para mulheres que querem recuperar força e funcionalidade no abdômen, seja depois da gestação, de um emagrecimento ou de outras mudanças no corpo."
+          },
+          {
+            "p": "Quanto tempo dura o Diástase Dream?",
+            "r": "Cinco semanas. Começa pela consciência e ativação da musculatura, e os exercícios e estímulos evoluem semana a semana, com tarefas para casa."
+          },
+          {
+            "p": "O que é o Yugen Face Spa?",
+            "r": "Um ritual facial inspirado nos cuidados de beleza orientais, com algas, argilas, flores e massagem. As etapas mudam conforme a sua pele."
+          },
+          {
+            "p": "Posso fazer o laser Lavieen em mais de uma região?",
+            "r": "Pode. O Lavieen é feito por região, e dá para combinar áreas na mesma sessão. Os valores atualizados saem pelo WhatsApp."
+          },
+          {
+            "p": "Como fico sabendo das condições especiais?",
+            "r": "Pelo Grupo VIP no WhatsApp. As ofertas de datas como a Black Friday chegam lá primeiro, antes de ir para o Instagram."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Na 306 Norte, Bloco D"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Seu horário começa com uma mensagem",
+        "lead": "Diga o tratamento e o dia que prefere. A recepção responde com o horário livre mais próximo.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}
